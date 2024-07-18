@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>Creer un compte</title>
+         <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+
+         <div class="conteneur">
+               <div class="cont-title">
+                    <h2>Créer mon compte</h2>
+                    <form>
+                        <div class="namefield">
+                             <div class="prenom">
+                                    <input name="prenom" id="prenom" type="text" placeholder="Votre prenom">
+                             </div>
+                             <div class="nom">
+                                    <input name="nom" id="nom" type="text" placeholder="Votre nom">
+                             </div>
+                        </div>
+                        <div class="telephone">
+                               <input type="tel" name="telephone" id="telephone" placeholder="Votre telephone">
+                        </div>
+                        <div class="emailfield">
+                               <input type="email" name="email" id="email" placeholder="Votre email">
+                        </div>
+                        <div class="motdepasse">
+                               <input type="password" name="mdp" id="mdp" placeholder="Tapez un mot de passe">
+                        </div>
+                        <div class="confirmationmdp">
+                               <input type="password" name="cmdp" id="cmpd" placeholder="Confirmez le mot de passe">
+        
+                        </div>
+                        <div class="checkbox">
+                             <label for="confirmation">
+                                    <input type="checkbox" name="confirmation" id="confirmation">
+                                    J'ai lu et accepte les termes et conditions du site
+                             </label>
+                        </div>
+                        <div class="submitbtn">
+                              <input type="submit" name="submit" id="submit" value="Creer mon compte" onclick="verification();">
+                        </div>
+                    </form>
+               </div>
+         </div>
+
+     <script src="assets/js/main.js"></script>       
+    </body>
+</html>
